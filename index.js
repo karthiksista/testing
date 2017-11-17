@@ -2,6 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 // main app
-import App from "./containers/App";
+import Temp from "./containers/Temp.js";
 
-ReactDOM.render(<App />, document.getElementById("app"));
+ReactDOM.render(
+  <div>
+    <Temp />
+  </div>,
+  document.getElementById("app")
+);
