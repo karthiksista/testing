@@ -1,12 +1,16 @@
 import React, { Component } from "react";
+import { Link } from "react-router";
+
+import Team from "./Team.js";
+import Projects from "./Projects.js";
 class Temp extends React.Component {
   render() {
     return (
-      <ul>
-        <li> Teams </li>
+      <div>
+        <Link to="Teams"> Teams </Link>
 
-        <li> Features </li>
-      </ul>
+        <Link to="Projects"> Projects </Link>
+      </div>
     );
   }
 }
